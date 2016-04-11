@@ -31,8 +31,8 @@ public final class URLEncodedFormMediaType: MediaType {
             type: "application",
             subtype: "x-www-form-urlencoded",
             parameters: ["charset": "utf-8"],
-            parser: URLEncodedFormInterchangeDataParser(),
-            serializer: URLEncodedFormInterchangeDataSerializer()
+            parser: URLEncodedFormStructuredDataParser(),
+            serializer: URLEncodedFormStructuredDataSerializer()
         )
     }
 }
