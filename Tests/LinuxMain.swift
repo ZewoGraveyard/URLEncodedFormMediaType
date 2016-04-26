@@ -1,6 +1,10 @@
+#if os(Linux)
+
 import XCTest
-@testable import URLEncodedFormMediaTypetest
+@testable import URLEncodedFormMediaTypeTestSuite
 
 XCTMain([
-	URLEncodedFormMediaType(),
+    testCase(URLEncodedFormMediaTypeTests.allTests)
 ])
+
+#endif
