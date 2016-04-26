@@ -8,7 +8,7 @@ class URLEncodedFormMediaTypeTests: XCTestCase {
 }
 
 extension URLEncodedFormMediaTypeTests {
-    static var allTests : [(String, URLEncodedFormMediaTypeTests -> () throws -> Void)] {
+    static var allTests: [(String, URLEncodedFormMediaTypeTests -> () throws -> Void)] {
         return [
            ("testReality", testReality),
         ]
